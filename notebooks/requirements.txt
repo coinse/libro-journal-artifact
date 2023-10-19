@@ -1,0 +1,6 @@
+pandas
+seaborn
+matplotlib
+tqdm
+scikit-learn
+Jinja2
