@@ -1,0 +1,8 @@
+full_model_name,analysis_name,parameters,base_setting,base_memory,inference_memory,quantize_gpu_setting,quantize_memory,quantize_inference_memory,notes
+Salesforce/codegen2-1B,codegen2-1B,1,single,4712,5768,single,1666,2906,
+Salesforce/codegen2-3_7B,codegen2-3_7B,3.7,single,14728,16218,single,3414,4802,
+Salesforce/codegen2-7B,codegen2-7B,7,multiple,29376,34274,single,5034,6940,
+Salesforce/codegen2-16B,codegen2-16B,16,multiple,64352,71322,single,10124,12656,
+facebook/Incoder-1B,Incoder-1B,1,single,5784,7050,single,1806,2632,
+facebook/Incoder-6B,Incoder-6B,6,multiple,29196,37772,single,4894,7256,
+bigcode/starcoder,starcoder,15,multiple,63384,86670,single,10028,17510,I can't get starcoder to use all 8191 of its context in any scenario
